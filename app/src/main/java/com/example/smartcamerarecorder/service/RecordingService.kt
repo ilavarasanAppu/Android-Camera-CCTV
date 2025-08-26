@@ -71,7 +71,7 @@ class RecordingService : LifecycleService(), AnalysisResultListener {
                 .setBackpressureStrategy(ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST)
                 .build()
                 .also {
-                    it.setAnalyzer(cameraExecutor, FaceAndMotionAnalyzer(this))
+                    it.setAnalyzer(cameraExecutor, FaceAndMotionAnalyzer(this, this))
                 }
 
             try {
@@ -91,6 +91,10 @@ class RecordingService : LifecycleService(), AnalysisResultListener {
 
     override fun onFacesDetected(faces: List<Face>) {
         Log.d(TAG, "Faces detected: ${faces.size}")
+    }
+
+    override fun onFaceRecognized(face: Face, embedding: FloatArray) {
+        Log.d(TAG, "Face recognized with embedding: ${embedding.joinToString()}")
     }
 
     override fun onMotionDetected(motionDetected: Boolean) {
