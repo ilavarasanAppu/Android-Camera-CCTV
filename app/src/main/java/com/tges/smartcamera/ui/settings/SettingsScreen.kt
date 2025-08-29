@@ -1,4 +1,4 @@
-package com.example.smartcamerarecorder.ui.settings
+package com.tges.smartcamera.ui.settings
 
 import android.app.Application
 import androidx.compose.foundation.layout.Column

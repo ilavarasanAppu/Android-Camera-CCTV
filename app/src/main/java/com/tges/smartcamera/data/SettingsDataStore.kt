@@ -1,4 +1,4 @@
-package com.example.smartcamerarecorder.data
+package com.tges.smartcamera.data
 
 import android.content.Context
 import androidx.datastore.core.DataStore

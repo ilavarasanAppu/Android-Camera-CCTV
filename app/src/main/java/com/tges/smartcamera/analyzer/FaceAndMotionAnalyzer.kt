@@ -1,4 +1,4 @@
-package com.example.smartcamerarecorder.analyzer
+package com.tges.smartcamera.analyzer
 
 import android.annotation.SuppressLint
 import android.content.Context

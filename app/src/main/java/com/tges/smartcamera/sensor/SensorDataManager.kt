@@ -1,4 +1,4 @@
-package com.example.smartcamerarecorder.sensor
+package com.tges.smartcamera.sensor
 
 import android.content.Context
 import android.hardware.Sensor

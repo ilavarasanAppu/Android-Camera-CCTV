@@ -1,4 +1,4 @@
-package com.example.smartcamerarecorder.ui.theme
+package com.tges.smartcamera.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

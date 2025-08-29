@@ -1,4 +1,4 @@
-package com.example.smartcamerarecorder.service
+package com.tges.smartcamera.service
 
 import android.annotation.SuppressLint
 import android.app.NotificationChannel
@@ -22,8 +22,8 @@ import androidx.camera.video.VideoRecordEvent
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.LifecycleService
-import com.example.smartcamerarecorder.analyzer.AnalysisResultListener
-import com.example.smartcamerarecorder.analyzer.FaceAndMotionAnalyzer
+import com.tges.smartcamera.analyzer.AnalysisResultListener
+import com.tges.smartcamera.analyzer.FaceAndMotionAnalyzer
 import com.google.mlkit.vision.face.Face
 import java.text.SimpleDateFormat
 import java.util.Locale
@@ -179,8 +179,8 @@ class RecordingService : LifecycleService(), AnalysisResultListener {
 
     companion object {
         private const val TAG = "RecordingService"
-        const val ACTION_START = "com.example.smartcamerarecorder.service.START"
-        const val ACTION_STOP = "com.example.smartcamerarecorder.service.STOP"
+        const val ACTION_START = "com.tges.smartcamera.service.START"
+        const val ACTION_STOP = "com.tges.smartcamera.service.STOP"
         private const val NOTIFICATION_ID = 1
         private const val VIDEO_DURATION_MS = 300_000L // 5 minutes
     }

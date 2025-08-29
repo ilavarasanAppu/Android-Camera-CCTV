@@ -1,4 +1,4 @@
-package com.example.smartcamerarecorder.ui.camera
+package com.tges.smartcamera.ui.camera
 
 import android.app.Application
 import android.content.Intent
@@ -7,8 +7,8 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.example.smartcamerarecorder.sensor.SensorDataManager
-import com.example.smartcamerarecorder.service.RecordingService
+import com.tges.smartcamera.sensor.SensorDataManager
+import com.tges.smartcamera.service.RecordingService
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.launchIn

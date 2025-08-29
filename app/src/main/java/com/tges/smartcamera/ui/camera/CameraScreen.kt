@@ -1,4 +1,4 @@
-package com.example.smartcamerarecorder.ui.camera
+package com.tges.smartcamera.ui.camera
 
 import android.Manifest
 import android.app.Application

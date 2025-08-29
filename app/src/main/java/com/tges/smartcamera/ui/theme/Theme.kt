@@ -1,4 +1,4 @@
-package com.example.smartcamerarecorder.ui.theme
+package com.tges.smartcamera.ui.theme
 
 import android.app.Activity
 import android.os.Build

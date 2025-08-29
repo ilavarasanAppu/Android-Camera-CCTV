@@ -1,4 +1,4 @@
-package com.example.smartcamerarecorder.analyzer
+package com.tges.smartcamera.analyzer
 
 import android.content.Context
 import android.graphics.Bitmap

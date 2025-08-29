@@ -1,12 +1,12 @@
-package com.example.smartcamerarecorder.ui.settings
+package com.tges.smartcamera.ui.settings
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.example.smartcamerarecorder.data.Settings
-import com.example.smartcamerarecorder.data.SettingsDataStore
+import com.tges.smartcamera.data.Settings
+import com.tges.smartcamera.data.SettingsDataStore
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.stateIn

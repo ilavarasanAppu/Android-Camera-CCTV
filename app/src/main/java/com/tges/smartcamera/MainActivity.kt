@@ -1,4 +1,4 @@
-package com.example.smartcamerarecorder
+package com.tges.smartcamera
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,9 +11,9 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.smartcamerarecorder.ui.camera.CameraScreen
-import com.example.smartcamerarecorder.ui.settings.SettingsScreen
-import com.example.smartcamerarecorder.ui.theme.SmartCameraRecorderTheme
+import com.tges.smartcamera.ui.camera.CameraScreen
+import com.tges.smartcamera.ui.settings.SettingsScreen
+import com.tges.smartcamera.ui.theme.SmartCameraRecorderTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
